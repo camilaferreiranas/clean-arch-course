@@ -1,0 +1,10 @@
+package br.com.camilaferreiranas.cleanarch.core.dataprovider;
+
+import br.com.camilaferreiranas.cleanarch.core.domain.Customer;
+
+import java.util.Optional;
+
+public interface FindCustomerById {
+
+    Optional<Customer> find( final String id);
+}
